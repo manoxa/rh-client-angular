@@ -1,3 +1,4 @@
+<!doctype html>
 <div class="wrapper" style="height: auto; min-height: 100%;">
   <aside class="main-sidebar">
     <section class="sidebar" style="height: auto;">
@@ -17,32 +18,64 @@
 
       <ul class="sidebar-menu tree" data-widget="tree">
         <li class="header">Choice Options</li>
-
-        <li class="treeview">
-          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-            <i class="fa fa-search"></i>
-            <span>Search</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">1</span>
-            </span>
-          </a>
-        </li>
-
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-edit"></i>
-            <span>Usuario</span>
+            <i class="fa fa-group"></i>
+            <span>Funcionarios</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right">2</span>
             </span>
           </a>
           <ul class="treeview-menu">
             <li>
-              <a href="/user">
-                <i class="fa fa-circle-o"></i> Back</a>
+              <a href="/funcionario/cadastro">
+                <i class="fa fa-floppy-o"></i>Cadastrar</a>
             </li>
+            <li>
+              <a href="/funcionario/lista">
+                <i class="fa fa-list-alt"></i>Listar</a>
+            </li>            
+          </ul>
+        </li>       
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-suitcase"></i>
+            <span>Departamentos</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right">2</span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="/departamento/cadstro">
+                <i class="fa fa-floppy-o"></i>Cadastrar</a>
+            </li>
+            <li>
+              <a href="/departamento/lista">
+                <i class="fa fa-list-alt"></i>Listar</a>
+            </li>            
           </ul>
         </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-id-badge"></i>
+            <span>Cargos</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right">2</span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="/cargo/cadastro">
+                <i class="fa fa-floppy-o"></i>Cadastrar</a>
+            </li>
+            <li>
+              <a href="/cargo/lista">
+                <i class="fa fa-list-alt"></i>Listar</a>
+            </li>            
+          </ul>
+        </li>        
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -61,7 +94,7 @@
           
         </div>
       </div>
-
+      
     </section>
   </div>
 </div>
